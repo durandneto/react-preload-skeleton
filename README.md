@@ -1,6 +1,6 @@
 # storybook 
 
-[Here](https://durandneto.github.io/react-preload-skeleton/docs/?path=/story/colors-new-colors--all-colors)
+Online examples [Here](https://durandneto.github.io/react-preload-skeleton/docs/?path=/story/colors-new-colors--all-colors)
 
 # Usage
 
