@@ -7,11 +7,13 @@ import { AvatarSkeleton, TextSkeleton, DescriptionSkeleton } from 'react-preload
 
 const MyComponent = props => {
     return (
-      <>
+      <div style={{padding: '3%'}}>
         <AvatarSkeleton color={'blue-light'} />
-        <TextSkeleton color={'blue-light'} />
-        <DescriptionSkeleton color={'blue-light'} />
-      </>
+        <br />
+        <TextSkeleton />
+        <br />
+        <DescriptionSkeleton color={'green-light'} />
+      </div>
     )
 }
 MyComponent.defaultProps = {
