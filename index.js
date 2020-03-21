@@ -21,11 +21,35 @@ Object.defineProperty(exports, "DescriptionSkeleton", {
     return _Description.default;
   }
 });
+Object.defineProperty(exports, "TitleDescriptionSkeleton", {
+  enumerable: true,
+  get: function get() {
+    return _TitleDescription.default;
+  }
+});
+Object.defineProperty(exports, "PostDescriptionSkeleton", {
+  enumerable: true,
+  get: function get() {
+    return _PostDescription.default;
+  }
+});
+Object.defineProperty(exports, "CardSkeleton", {
+  enumerable: true,
+  get: function get() {
+    return _Card.default;
+  }
+});
 
 var _Avatar = _interopRequireDefault(require("./dist/Components/Skeleton/Avatar"));
 
 var _Text = _interopRequireDefault(require("./dist/Components/Skeleton/Text"));
 
 var _Description = _interopRequireDefault(require("./dist/Components/Skeleton/Description"));
+
+var _TitleDescription = _interopRequireDefault(require("./dist/Components/Skeleton/TitleDescription"));
+
+var _PostDescription = _interopRequireDefault(require("./dist/Components/Skeleton/PostDescription"));
+
+var _Card = _interopRequireDefault(require("./dist/Components/Skeleton/Card"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
