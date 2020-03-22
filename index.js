@@ -45,6 +45,12 @@ Object.defineProperty(exports, "ChipSkeleton", {
     return _Chip.default;
   }
 });
+Object.defineProperty(exports, "RelocationSkeleton", {
+  enumerable: true,
+  get: function get() {
+    return _Relocation.default;
+  }
+});
 
 var _Avatar = _interopRequireDefault(require("./dist/Components/Skeleton/Avatar"));
 
@@ -59,5 +65,7 @@ var _PostDescription = _interopRequireDefault(require("./dist/Components/Skeleto
 var _Card = _interopRequireDefault(require("./dist/Components/Skeleton/Card"));
 
 var _Chip = _interopRequireDefault(require("./dist/Components/Skeleton/Chip"));
+
+var _Relocation = _interopRequireDefault(require("./dist/Components/Skeleton/Relocation"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }

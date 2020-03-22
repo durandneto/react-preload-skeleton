@@ -5,6 +5,7 @@ import TitleDescriptionSkeleton from './dist/Components/Skeleton/TitleDescriptio
 import PostDescriptionSkeleton from './dist/Components/Skeleton/PostDescription';
 import CardSkeleton from './dist/Components/Skeleton/Card';
 import ChipSkeleton from './dist/Components/Skeleton/Chip';
+import RelocationSkeleton from './dist/Components/Skeleton/Relocation';
 
 export {
     AvatarSkeleton,
@@ -13,5 +14,6 @@ export {
     TitleDescriptionSkeleton,
     PostDescriptionSkeleton,
     CardSkeleton,
-    ChipSkeleton
+    ChipSkeleton,
+    RelocationSkeleton
 }
