@@ -51,6 +51,12 @@ Object.defineProperty(exports, "RelocationSkeleton", {
     return _Relocation.default;
   }
 });
+Object.defineProperty(exports, "InputSkeleton", {
+  enumerable: true,
+  get: function get() {
+    return _Input.default;
+  }
+});
 
 var _Avatar = _interopRequireDefault(require("./dist/Components/Skeleton/Avatar"));
 
@@ -67,5 +73,7 @@ var _Card = _interopRequireDefault(require("./dist/Components/Skeleton/Card"));
 var _Chip = _interopRequireDefault(require("./dist/Components/Skeleton/Chip"));
 
 var _Relocation = _interopRequireDefault(require("./dist/Components/Skeleton/Relocation"));
+
+var _Input = _interopRequireDefault(require("./dist/Components/Skeleton/Input"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
