@@ -12,7 +12,28 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   return _react.default.createElement("div", {
     style: {
       backgroundColor: "#f2f2f2",
+      padding: '5%',
       height: "100vh"
     }
   }, _react.default.createElement(_.default, null));
+}).add("reverse", function () {
+  return _react.default.createElement("div", {
+    style: {
+      backgroundColor: "#f2f2f2",
+      padding: '5%',
+      height: "100vh"
+    }
+  }, _react.default.createElement(_.default, {
+    reverse: true
+  }));
+}).add("extraLine", function () {
+  return _react.default.createElement("div", {
+    style: {
+      backgroundColor: "#f2f2f2",
+      padding: '5%',
+      height: "100vh"
+    }
+  }, _react.default.createElement(_.default, {
+    extraLine: true
+  }));
 });

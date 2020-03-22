@@ -1,31 +1,40 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import BaseSkeleton from '../../Base'
-import { Row, Container } from '../../../Grid'
+import { Row } from '../../../Grid'
+import Text from '../Text'
 
-const VHSkeletonAvatar = props => {
+const TitleDescription = props => {
     return (
-        <Row style={{ backgroundColor: "#fff"}}>
-            <Row marginBottom3>
-                <BaseSkeleton
-                    w={220}
-                    h={24}
-                />
-            </Row>
-            <Row marginBottom3>
+        <Row>
+            <Row marginBottom3 width={"50%"}>
                 <BaseSkeleton
                     w={"100%"}
-                    color={"black-10"}
+                    h={24}
+                    color={props.reverse ? "black-10" : null}
+                    />
+            </Row>
+            <Row marginBottom3 width={"100%"}>
+                <BaseSkeleton
+                    w={"100%"}
+                    color={props.reverse ? null: "black-10"}
                     h={27}
                 />
             </Row>
+            {
+                props.extraLine && (
+                    <Row marginBottom3 width={"25%"}>
+                        <Text/>
+                    </Row>
+                )
+            }
         </Row>
     )
 }
-VHSkeletonAvatar.defaultProps = {
+TitleDescription.defaultProps = {
 }
 
-VHSkeletonAvatar.propTypes = {
+TitleDescription.propTypes = {
 }
 
-export default VHSkeletonAvatar
+export default TitleDescription

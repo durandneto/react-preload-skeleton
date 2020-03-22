@@ -8,7 +8,7 @@ import Chip from '../Chip'
 
 const PostDescription = props => {
     return (
-        <Row style={{ backgroundColor: "#fff", padding:'9px', width:'calc(100% - 18px)'}}>
+        <Row style={{ width:'calc(100% - 18px)'}}>
             <Row>
                 <TitleDescription />
             </Row>

@@ -13,28 +13,32 @@ var _Base = _interopRequireDefault(require("../../Base"));
 
 var _Grid = require("../../../Grid");
 
+var _Text = _interopRequireDefault(require("../Text"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var VHSkeletonAvatar = function VHSkeletonAvatar(props) {
-  return _react.default.createElement(_Grid.Row, {
-    style: {
-      backgroundColor: "#fff"
-    }
-  }, _react.default.createElement(_Grid.Row, {
-    marginBottom3: true
-  }, _react.default.createElement(_Base.default, {
-    w: 220,
-    h: 24
-  })), _react.default.createElement(_Grid.Row, {
-    marginBottom3: true
+var TitleDescription = function TitleDescription(props) {
+  return _react.default.createElement(_Grid.Row, null, _react.default.createElement(_Grid.Row, {
+    marginBottom3: true,
+    width: "50%"
   }, _react.default.createElement(_Base.default, {
     w: "100%",
-    color: "black-10",
+    h: 24,
+    color: props.reverse ? "black-10" : null
+  })), _react.default.createElement(_Grid.Row, {
+    marginBottom3: true,
+    width: "100%"
+  }, _react.default.createElement(_Base.default, {
+    w: "100%",
+    color: props.reverse ? null : "black-10",
     h: 27
-  })));
+  })), props.extraLine && _react.default.createElement(_Grid.Row, {
+    marginBottom3: true,
+    width: "25%"
+  }, _react.default.createElement(_Text.default, null)));
 };
 
-VHSkeletonAvatar.defaultProps = {};
-VHSkeletonAvatar.propTypes = {};
-var _default = VHSkeletonAvatar;
+TitleDescription.defaultProps = {};
+TitleDescription.propTypes = {};
+var _default = TitleDescription;
 exports.default = _default;

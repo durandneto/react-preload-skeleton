@@ -24,8 +24,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var PostDescription = function PostDescription(props) {
   return _react.default.createElement(_Grid.Row, {
     style: {
-      backgroundColor: "#fff",
-      padding: '9px',
       width: 'calc(100% - 18px)'
     }
   }, _react.default.createElement(_Grid.Row, null, _react.default.createElement(_TitleDescription.default, null)), _react.default.createElement(_Grid.Row, {
