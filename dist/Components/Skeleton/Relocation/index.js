@@ -354,67 +354,6 @@ var RelocationSection = function RelocationSection(props) {
   }, _react.default.createElement(_Base.default, {
     w: 100,
     h: 15
-  }))))), _react.default.createElement(_Grid.Row, {
-    width: "50%",
-    row: true,
-    autoWidth: true
-  }, _react.default.createElement(_Grid.Row, {
-    row: true
-  }, _react.default.createElement(_Grid.Row, {
-    row: true,
-    autoWidth: true
-  }, _react.default.createElement(_Grid.Row, {
-    autoWidth: true
-  }, _react.default.createElement(_Base.default, {
-    radius: '50%',
-    w: 24,
-    color: "black-10",
-    h: 24
-  })), _react.default.createElement(_Grid.Row, {
-    autoWidth: true,
-    style: {
-      padding: "6px"
-    }
-  }, _react.default.createElement(_Base.default, {
-    w: 57,
-    h: 15
-  }))), _react.default.createElement(_Grid.Row, {
-    row: true,
-    autoWidth: true
-  }, _react.default.createElement(_Grid.Row, {
-    autoWidth: true
-  }, _react.default.createElement(_Base.default, {
-    radius: '50%',
-    w: 24,
-    color: "black-20",
-    h: 24
-  })), _react.default.createElement(_Grid.Row, {
-    autoWidth: true,
-    style: {
-      padding: "6px"
-    }
-  }, _react.default.createElement(_Base.default, {
-    w: 57,
-    h: 15,
-    color: "black-20"
-  }))), _react.default.createElement(_Grid.Row, {
-    row: true,
-    autoWidth: true
-  }, _react.default.createElement(_Grid.Row, {
-    autoWidth: true
-  }, _react.default.createElement(_Base.default, {
-    radius: '50%',
-    w: 24,
-    color: "black-10",
-    h: 24
-  })), _react.default.createElement(_Grid.Row, {
-    autoWidth: true,
-    style: {
-      padding: "6px"
-    }
-  }, _react.default.createElement(_Base.default, {
-    w: 57,
-    h: 15
   }))))))));
 };
 
