@@ -4,12 +4,14 @@ import DescriptionSkeleton from './dist/Components/Skeleton/Description';
 import TitleDescriptionSkeleton from './dist/Components/Skeleton/TitleDescription';
 import PostDescriptionSkeleton from './dist/Components/Skeleton/PostDescription';
 import CardSkeleton from './dist/Components/Skeleton/Card';
+import ChipSkeleton from './dist/Components/Skeleton/Chip';
 
-export { 
+export {
     AvatarSkeleton,
     TextSkeleton,
     DescriptionSkeleton,
     TitleDescriptionSkeleton,
     PostDescriptionSkeleton,
-    CardSkeleton 
+    CardSkeleton,
+    ChipSkeleton
 }

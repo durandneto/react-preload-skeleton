@@ -17,13 +17,16 @@ var _TitleDescription = _interopRequireDefault(require("../TitleDescription"));
 
 var _Description = _interopRequireDefault(require("../Description"));
 
+var _Chip = _interopRequireDefault(require("../Chip"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var PostDescription = function PostDescription(props) {
   return _react.default.createElement(_Grid.Row, {
     style: {
       backgroundColor: "#fff",
-      padding: "12px"
+      padding: '9px',
+      width: 'calc(100% - 18px)'
     }
   }, _react.default.createElement(_Grid.Row, null, _react.default.createElement(_TitleDescription.default, null)), _react.default.createElement(_Grid.Row, {
     marginBottom3: true
@@ -33,25 +36,14 @@ var PostDescription = function PostDescription(props) {
   }, _react.default.createElement(_Grid.Row, {
     autoWidth: true,
     paddingRight8: true
-  }, _react.default.createElement(_Base.default, {
-    w: 57,
-    h: 15,
-    round: "25%"
-  })), _react.default.createElement(_Grid.Row, {
+  }, _react.default.createElement(_Chip.default, null)), _react.default.createElement(_Grid.Row, {
     autoWidth: true,
     paddingRight8: true
-  }, _react.default.createElement(_Base.default, {
-    w: 57,
-    h: 15,
-    round: "25%",
+  }, _react.default.createElement(_Chip.default, {
     color: "black-20"
   })), _react.default.createElement(_Grid.Row, {
     autoWidth: true
-  }, _react.default.createElement(_Base.default, {
-    w: 57,
-    h: 15,
-    round: "25%"
-  }))));
+  }, _react.default.createElement(_Chip.default, null))));
 };
 
 PostDescription.defaultProps = {};

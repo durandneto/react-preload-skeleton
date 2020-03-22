@@ -12,7 +12,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   return _react.default.createElement("div", {
     style: {
       backgroundColor: "#f2f2f2",
-      height: "100vh"
+      height: "100vh",
+      padding: '12px'
     }
   }, _react.default.createElement(_.default, null));
 });

@@ -39,6 +39,12 @@ Object.defineProperty(exports, "CardSkeleton", {
     return _Card.default;
   }
 });
+Object.defineProperty(exports, "ChipSkeleton", {
+  enumerable: true,
+  get: function get() {
+    return _Chip.default;
+  }
+});
 
 var _Avatar = _interopRequireDefault(require("./dist/Components/Skeleton/Avatar"));
 
@@ -51,5 +57,7 @@ var _TitleDescription = _interopRequireDefault(require("./dist/Components/Skelet
 var _PostDescription = _interopRequireDefault(require("./dist/Components/Skeleton/PostDescription"));
 
 var _Card = _interopRequireDefault(require("./dist/Components/Skeleton/Card"));
+
+var _Chip = _interopRequireDefault(require("./dist/Components/Skeleton/Chip"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
