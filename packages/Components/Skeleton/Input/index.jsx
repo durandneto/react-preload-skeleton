@@ -9,7 +9,7 @@ const InputSkeleton = props => {
         <>
         {
             lines.map(line => (
-                <div style={{width:'100%',
+                <div style={{width:'98%',
                 padding: '12px',
                 border: `solid 1px ${Color['black-10']}`,
                 borderRadius: "6px",

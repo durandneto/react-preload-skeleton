@@ -20,7 +20,7 @@ var InputSkeleton = function InputSkeleton(props) {
   return _react.default.createElement(_react.default.Fragment, null, lines.map(function (line) {
     return _react.default.createElement("div", {
       style: {
-        width: '100%',
+        width: '98%',
         padding: '12px',
         border: "solid 1px ".concat(_Colors.default['black-10']),
         borderRadius: "6px",
