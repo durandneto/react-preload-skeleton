@@ -306,59 +306,6 @@ const RelocationSection = props => {
                             </Row>
                         </Row>
                     </Row>
-                    <Row width={"50%"} row autoWidth>
-                        <Row row>
-                            <Row row autoWidth>
-                                <Row autoWidth>
-                                    <BaseSkeleton
-                                        radius={'50%'}
-                                        w={24}
-                                        color={"black-10"}
-                                        h={24}
-                                    />
-                                </Row>
-                                <Row autoWidth style={{ padding: "6px"}}>
-                                    <BaseSkeleton
-                                        w={57}
-                                        h={15}
-                                    />
-                                </Row>
-                            </Row>
-                            <Row row autoWidth>
-                                <Row autoWidth>
-                                    <BaseSkeleton
-                                        radius={'50%'}
-                                        w={24}
-                                        color={"black-20"}
-                                        h={24}
-                                    />
-                                </Row>
-                                <Row autoWidth style={{ padding: "6px"}}>
-                                    <BaseSkeleton
-                                        w={57}
-                                        h={15}
-                                        color={"black-20"}
-                                    />
-                                </Row>
-                            </Row>
-                            <Row row autoWidth>
-                                <Row autoWidth>
-                                    <BaseSkeleton
-                                        radius={'50%'}
-                                        w={24}
-                                        color={"black-10"}
-                                        h={24}
-                                    />
-                                </Row>
-                                <Row autoWidth style={{ padding: "6px"}}>
-                                    <BaseSkeleton
-                                        w={57}
-                                        h={15}
-                                    />
-                                </Row>
-                            </Row>
-                        </Row>
-                    </Row>
                 </Row>
             </Row>
         </Row>

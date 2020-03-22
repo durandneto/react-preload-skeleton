@@ -32,5 +32,5 @@ export default styled.div`
         ${props => Color[props.color] ? Color[props.color] : Color['gray-10']} 0px,
         ${props => Color[props.shineColor] ? Color[props.shineColor] : Color["gray-20"]} 40px,
         ${props => Color[props.color] ? Color[props.color] : Color['gray-10']}  80px);
-    animation: ${props => props.w ? shineAvatar(props.w) : shineAvatar(baseOffset)} 1s  infinite linear;
+    animation: ${props => props.w ? shineAvatar(props.w) : shineAvatar(baseOffset)} 6s  infinite linear;
 `
