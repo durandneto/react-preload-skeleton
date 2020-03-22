@@ -4,10 +4,11 @@ import BaseSkeleton from '../../Base'
 import { Row, Container } from '../../../Grid'
 import TitleDescription from '../TitleDescription'
 import Description from '../Description'
+import Chip from '../Chip'
 
 const PostDescription = props => {
     return (
-        <Row style={{ backgroundColor: "#fff", padding: "12px"}}>
+        <Row style={{ backgroundColor: "#fff", padding:'9px', width:'calc(100% - 18px)'}}>
             <Row>
                 <TitleDescription />
             </Row>
@@ -16,26 +17,13 @@ const PostDescription = props => {
             </Row>
             <Row row marginBottom3>
                 <Row autoWidth paddingRight8>
-                    <BaseSkeleton
-                        w={57}
-                        h={15}
-                        round={"25%"}
-                    />
+                    <Chip />
                 </Row>
                 <Row autoWidth paddingRight8>
-                    <BaseSkeleton
-                        w={57}
-                        h={15}
-                        round={"25%"}
-                        color={"black-20"}
-                    />
+                    <Chip color={"black-20"} />
                 </Row>
                 <Row autoWidth>
-                    <BaseSkeleton
-                        w={57}
-                        h={15}
-                        round={"25%"}
-                    />
+                    <Chip />
                 </Row>
             </Row>
         </Row>
