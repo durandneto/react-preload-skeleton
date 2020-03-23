@@ -39,8 +39,8 @@ const VHSkeletonAvatar = props => {
                     <BaseSkeleton
                         w={150}
                         color={"blue-dark"}
-                        h={40}
-                        radius={"9px"}
+                        h={30}
+                        radius={"3px"}
                     />
                 </Row>
             )}
