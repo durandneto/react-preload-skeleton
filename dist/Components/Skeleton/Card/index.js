@@ -46,8 +46,8 @@ var VHSkeletonAvatar = function VHSkeletonAvatar(props) {
   })), props.button && _react.default.createElement(_Grid.Row, null, _react.default.createElement(_Base.default, {
     w: 150,
     color: "blue-dark",
-    h: 40,
-    radius: "9px"
+    h: 30,
+    radius: "3px"
   })));
 };
 

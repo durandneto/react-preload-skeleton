@@ -3,6 +3,12 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+Object.defineProperty(exports, "BaseSkeleton", {
+  enumerable: true,
+  get: function get() {
+    return _Base.default;
+  }
+});
 Object.defineProperty(exports, "AvatarSkeleton", {
   enumerable: true,
   get: function get() {
@@ -57,6 +63,8 @@ Object.defineProperty(exports, "InputSkeleton", {
     return _Input.default;
   }
 });
+
+var _Base = _interopRequireDefault(require("./dist/Components/Base"));
 
 var _Avatar = _interopRequireDefault(require("./dist/Components/Skeleton/Avatar"));
 

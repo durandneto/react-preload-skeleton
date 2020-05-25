@@ -18,7 +18,7 @@ function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
 function _templateObject3() {
-  var data = _taggedTemplateLiteral(["\n    width: ", "px;\n    height: ", "px;\n    background-color: #ccc;\n    border-radius:  ", ";\n    background-image: linear-gradient(90deg,\n        ", " 0px,\n        ", " 40px,\n        ", "  80px);\n    animation: ", " 12s  infinite linear;\n"]);
+  var data = _taggedTemplateLiteral(["\n    width: ", ";\n    height: ", "px;\n    background-color: #ccc;\n    border-radius:  ", ";\n    background-image: linear-gradient(90deg,\n        ", " 0px,\n        ", " 40px,\n        ", "  80px);\n    animation: ", " 12s  infinite linear;\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -62,7 +62,7 @@ var shineAvatar = function shineAvatar(w) {
 };
 
 var _default = _styledComponents.default.div(_templateObject3(), function (props) {
-  return props.w ? props.w : baseOffset;
+  return props.w ? props.w : "".concat(baseOffset, "px");
 }, function (props) {
   return props.h ? props.h : baseOffset;
 }, function (props) {

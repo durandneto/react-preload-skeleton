@@ -1,3 +1,4 @@
+import BaseSkeleton from './dist/Components/Base';
 import AvatarSkeleton from './dist/Components/Skeleton/Avatar';
 import TextSkeleton from './dist/Components/Skeleton/Text';
 import DescriptionSkeleton from './dist/Components/Skeleton/Description';
@@ -18,4 +19,5 @@ export {
     ChipSkeleton,
     RelocationSkeleton,
     InputSkeleton,
+    BaseSkeleton,
 }

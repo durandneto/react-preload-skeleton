@@ -24,7 +24,7 @@ const shineAvatar = w => {
 };
 
 export default styled.div`
-    width: ${props => props.w ? props.w : baseOffset}px;
+    width: ${props => props.w ? props.w : `${baseOffset}px`};
     height: ${props => props.h ? props.h : baseOffset}px;
     background-color: #ccc;
     border-radius:  ${props => props.radius ? props.radius : `0%`};
