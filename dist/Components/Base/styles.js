@@ -62,9 +62,9 @@ var shineAvatar = function shineAvatar(w) {
 };
 
 var _default = _styledComponents.default.div(_templateObject3(), function (props) {
-  return props.w ? "".concat(props.w).concat(props.w.toString().indexOf('px') === -1 ? "px" : '') : "".concat(baseOffset, "px");
+  return props.w ? "".concat(props.w).concat(props.w.toString().indexOf('px') === -1 && props.w.toString().indexOf('%') === -1 ? "px" : '') : "".concat(baseOffset, "px");
 }, function (props) {
-  return props.h ? "".concat(props.h).concat(props.h.toString().indexOf('px') === -1 ? "px" : '') : "".concat(baseOffset, "px");
+  return props.h ? "".concat(props.h).concat(props.h.toString().indexOf('px') === -1 && props.h.toString().indexOf('%') ? "px" : '') : "".concat(baseOffset, "px");
 }, function (props) {
   return props.radius ? props.radius : "0%";
 }, function (props) {
