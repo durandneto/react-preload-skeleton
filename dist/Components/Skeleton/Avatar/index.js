@@ -16,7 +16,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var VHSkeletonAvatar = function VHSkeletonAvatar(props) {
   return _react.default.createElement(_Base.default, {
     radius: '50%',
-    w: 32,
+    w: '32px',
     color: props.color,
     h: 32
   });

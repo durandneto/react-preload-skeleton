@@ -6,7 +6,7 @@ const VHSkeletonAvatar = props => {
     return (
         <BaseSkeleton
             radius={'50%'}
-            w={32}
+            w={'32px'}
             color={props.color}
             h={32}
         />

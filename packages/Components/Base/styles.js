@@ -24,8 +24,8 @@ const shineAvatar = w => {
 };
 
 export default styled.div`
-    width: ${props => props.w ? props.w : `${baseOffset}px`};
-    height: ${props => props.h ? props.h : baseOffset}px;
+    width: ${props => props.w ? `${props.w}${props.w.toString().indexOf('px') === -1 ? `px` : ''}` : `${baseOffset}px`};
+    height: ${props => props.h ?`${props.h}${props.h.toString().indexOf('px') === -1 ? `px` : ''}` : `${baseOffset}px`};
     background-color: #ccc;
     border-radius:  ${props => props.radius ? props.radius : `0%`};
     background-image: linear-gradient(90deg,
